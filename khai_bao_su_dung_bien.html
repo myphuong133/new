@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành khai báo và sử dụng biến</title>
+</head>
+<body>
+    <script>
+        // Bài 1: khai báo biến
+        let a= 20;
+        let b= 20.5;
+        let c= true;
+        let d= 'Hà nội'
+        document.write(a)
+        document.write('<br/>')
+        document.write(b)
+        document.write('<br/>')
+        document.write(c)
+        document.write('<br/>')
+        document.write(d)
+
+        //Bài 2: In diện tích HCN
+        let width= 200;
+        let height= 100; 
+        let area = width*height; 
+        document.write('<br/>');
+        document.write('Area = ' + area);
+
+        //Bài 3: KT bội số
+        let num1 = +prompt('Nhập số a');
+        let num2 = +prompt('Nhập số b');
+        if(num1 %num2 == 0) {
+            alert(num1 + ' Chia hết cho ' + num2 )
+        };
+    </script>
+    
+</body>
+</html>
