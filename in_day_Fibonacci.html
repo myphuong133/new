@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In dãy Fibonacci</title>
+</head>
+<body>
+    <script>
+        let a = 0;
+        let b = 1;
+        let e = 0
+        let c = prompt('Nhập số giá trị bạn muốn')
+        let result = '1';
+        for (let i=1;i<c;i++){
+         
+            e = a + b;
+            a = b;
+            b = e;
+            result += ', ' +  e;
+        console.log(a);
+        console.log(b);
+        console.log(e)
+        }
+        document.write(result)
+    </script>
+</body>
+</html>
